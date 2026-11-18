@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": "better_fishing:silver_carp",
+  "result": {
+    "id": "better_fishing:cooked_silver_carp"
+  }
+}

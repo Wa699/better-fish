@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 0.35,
+  "ingredient": "better_fishing:crystal_eel",
+  "result": {
+    "id": "better_fishing:cooked_crystal_eel"
+  }
+}

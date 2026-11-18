@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 0.35,
+  "ingredient": "better_fishing:moon_jelly",
+  "result": {
+    "id": "better_fishing:cooked_moon_jelly"
+  }
+}

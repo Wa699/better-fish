@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "better_fishing",
+	"version": "${version}",
+	"name": "A Better Fishing Experience",
+	"description": "为原版钓鱼新增 9 条鱼，分生熟两版共 18 个物品。稀有鱼受水域、昼夜与天气条件限制，烤熟后提供更强的增益效果。",
+	"authors": [
+		"Wa699"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/better_fishing/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.mod.fish.ABetterFishingExperience"
+		],
+		"client": [
+			"com.mod.fish.client.ABetterFishingExperienceClient"
+		]
+	},
+	"mixins": [
+		"better_fishing.mixins.json",
+		{
+			"config": "better_fishing.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

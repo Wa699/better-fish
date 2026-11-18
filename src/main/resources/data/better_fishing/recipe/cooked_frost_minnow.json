@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": "better_fishing:frost_minnow",
+  "result": {
+    "id": "better_fishing:cooked_frost_minnow"
+  }
+}
